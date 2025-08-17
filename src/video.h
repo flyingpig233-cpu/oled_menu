@@ -8,8 +8,8 @@
 
 #define NUMFLAKES     10 // Number of snowflakes in the animation example
 
-#define LOGO_HEIGHT   16
-#define LOGO_WIDTH    16
+const int LOGO_HEIGHT = 16;
+const int LOGO_WIDTH = 16;
 static const unsigned char PROGMEM logo_bmp[] =
 { 0b00000000, 0b11000000,
   0b00000001, 0b11000000,
