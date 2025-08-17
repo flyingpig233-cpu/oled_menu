@@ -136,6 +136,7 @@ classDiagram
 对于选择框而言，我们定义三个位置，一个是目标位置 （*target  pos*）、一个是实际位置 (*current pos*)，以及静止位置（*idle pos*）。以及动画进行程度（*progress*），通过公式 $ current\_pos = idle\_pos + (target\_pos - idle\_pos) \times f(progress)$ 来构建四者关系，其中，`progress`为介于 0 到 1 之间的浮点值，用于控制动画进行程度。我们只需要控制 $ f(x) $ 就能实现各种动画。
 
 我们最终选择了如下 $f(x)$函数：
+
 $$
 f(x) = 
 \begin{cases} 
@@ -147,7 +148,7 @@ f(x) =
 $$
 其图像如下：
 
-![fx](C:\Users\Lenovo\Desktop\课题研究\fx.png)
+![fx](fx.png)
 
 这个函数实现了缓动效果，通过对物体弹跳这一物理运动的模拟，得以使选择框的运动十分自然流畅。
 
@@ -203,7 +204,7 @@ graph TD
 
 本项目采用合宙ESP32-C3开发板为主体进行开发，项目硬件原理图如下
 
-![芯片原理图](C:\Users\Lenovo\Desktop\课题研究\芯片原理图.svg)
+![芯片原理图](芯片原理图.svg)
 
 ### 耗材
 
@@ -232,13 +233,13 @@ OLED12864以及ESP32-C3都属于低功耗设备，在3.3V的下，ESP32-C3工作
 
 
 
-![主界面展示](C:\Users\Lenovo\Desktop\课题研究\主界面展示.png)
+![主界面展示](主界面展示.png)
 
-![键盘控制功能](C:\Users\Lenovo\Desktop\课题研究\键盘控制功能.jpg)
+![键盘控制功能](键盘控制功能.jpg)
 
 在此基础上，我们又在双面洞洞板上焊接了一个袖珍版设备，尺寸仅为5cm*7cm，可以轻松放置于掌心。
 
-![焊接成品](C:\Users\Lenovo\Desktop\课题研究\焊接成品.jpg)
+![焊接成品](焊接成品.jpg)
 
 ## 展望
 
