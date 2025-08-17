@@ -1,0 +1,53 @@
+#pragma once
+
+#include "snake.h"
+#include "position.h"
+
+class Fruit {
+  public:
+    Fruit(Snake * snake);
+    void randomize(Snake * snake);
+    const Position getPosition();
+  private:
+    Position position { Position(0, 0) };
+};
+
+#include "Arduino.h"
+
+Fruit::Fruit(Snake * snake) {
+  this->randomize(snake);
+  this->position.x = 10;
+  this->position.y = 4;
+}
+
+void Fruit::randomize(Snake * snake) {
+  uint8_t spaceCnt = 0;
+  const uint8_t **body = snake->getBody();
+  
+  for(int i = 0; i < Snake::BODY_WIDTH; i++) {
+    for(int j = 0; j < Snake::BODY_HEIGHT; j++) {
+      if(body[i][j] == 0) {
+        spaceCnt++;
+      }
+    }
+  }
+
+  uint8_t targetSpace = random(0, spaceCnt);
+  spaceCnt = 0;
+  for(int i = 0; i < Snake::BODY_WIDTH; i++) {
+    for(int j = 0; j < Snake::BODY_HEIGHT; j++) {
+      if(body[i][j] == 0) {
+        if(targetSpace == spaceCnt) {
+          this->position.x = i;
+          this->position.y = j;
+          return;
+        }
+        spaceCnt++;
+      }
+    }
+  }
+}
+
+const Position Fruit::getPosition() {
+  return this->position;
+}
