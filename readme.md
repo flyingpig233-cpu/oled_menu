@@ -137,7 +137,7 @@ classDiagram
 
 我们最终选择了如下 $f(x)$ 函数：
 
-$$
+```math
 f(x) = 
 \begin{cases} 
 7.5625 \times x^2 & \text{if } 0 \leq x < \dfrac{1}{2.75} \\[2ex]
@@ -145,7 +145,7 @@ f(x) =
 7.5625 \times \left(x - \dfrac{2.25}{2.75}\right)^2 + 0.9375 & \text{if } \dfrac{2}{2.75} \leq x < \dfrac{2.5}{2.75} \\[2ex]
 7.5625 \times \left(x - \dfrac{2.625}{2.75}\right)^2 + 0.984375 & \text{if } \dfrac{2.5}{2.75} \leq x \leq 1
 \end{cases}
-$$
+```
 其图像如下：
 
 ![fx](fx.png)
