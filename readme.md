@@ -135,7 +135,7 @@ classDiagram
 
 对于选择框而言，我们定义三个位置，一个是目标位置 （*target  pos*）、一个是实际位置 (*current pos*)，以及静止位置（*idle pos*）。以及动画进行程度（*progress*），通过公式 $ current\_pos = idle\_pos + (target\_pos - idle\_pos) \times f(progress)$ 来构建四者关系，其中，`progress`为介于 0 到 1 之间的浮点值，用于控制动画进行程度。我们只需要控制 $ f(x) $ 就能实现各种动画。
 
-我们最终选择了如下 $f(x)$函数：
+我们最终选择了如下 $f(x)$ 函数：
 
 $$
 f(x) = 
