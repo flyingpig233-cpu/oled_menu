@@ -1,0 +1,33 @@
+"filename", "language", "C++", "Arduino", "JSON with Comments", "comment", "blank", "total"
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\.theia\launch.json", "JSON with Comments", 0, 0, 5, 2, 2, 9
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\Ball.ino", "Arduino", 0, 71, 0, 2, 10, 83
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\about.h", "C++", 76, 0, 0, 1, 2, 79
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\button.h", "C++", 12, 0, 0, 0, 7, 19
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\button.ino", "Arduino", 0, 70, 0, 0, 5, 75
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\dev.h", "C++", 22, 0, 0, 0, 2, 24
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\exit.h", "C++", 3, 0, 0, 0, 2, 5
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\font.h", "C++", 14, 0, 0, 0, 6, 20
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game.h", "C++", 66, 0, 0, 0, 4, 70
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\Ball.h", "C++", 20, 0, 0, 0, 3, 23
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\Block.h", "C++", 208, 0, 0, 28, 21, 257
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\Environment.h", "C++", 220, 0, 0, 3, 16, 239
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\Levels.h", "C++", 121, 0, 0, 11, 11, 143
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\Paddle.h", "C++", 19, 0, 0, 0, 3, 22
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\Sprite.h", "C++", 44, 0, 0, 0, 7, 51
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\ball\ball_handle.h", "C++", 29, 0, 0, 2, 1, 32
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\snake\fruit.h", "C++", 45, 0, 0, 0, 8, 53
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\snake\position.h", "C++", 20, 0, 0, 0, 4, 24
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\snake\renderer.h", "C++", 59, 0, 0, 0, 14, 73
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\game\snake\snake.h", "C++", 114, 0, 0, 0, 16, 130
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\hack.h", "C++", 93, 0, 0, 0, 6, 99
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\help.h", "C++", 49, 0, 0, 0, 3, 52
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\label.h", "C++", 12, 0, 0, 0, 4, 16
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\menu.h", "C++", 174, 0, 0, 0, 23, 197
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\oled_menu_test.ino", "Arduino", 0, 39, 0, 0, 4, 43
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\paddle.ino", "Arduino", 0, 55, 0, 0, 12, 67
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\rect.h", "C++", 38, 0, 0, 1, 6, 45
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\screen.h", "C++", 11, 0, 0, 0, 5, 16
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\selector.h", "C++", 23, 0, 0, 0, 2, 25
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\test.h", "C++", 53, 0, 0, 0, 4, 57
+"e:\Documents\PlatformIO\Projects\250803-125604-airm2m_core_esp32c3\src\video.h", "C++", 281, 0, 0, 20, 82, 383
+"Total", "-", 1826, 235, 5, 70, 295, 2431
